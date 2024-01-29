@@ -15,6 +15,7 @@
 		BA3B2D0A2AF4398E00382078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3B2D092AF4398E00382078 /* Assets.xcassets */; };
 		BA3B2D0D2AF4398E00382078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3B2D0B2AF4398E00382078 /* LaunchScreen.storyboard */; };
 		BAC0700C2B68500700BD4D8B /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0700B2B68500700BD4D8B /* Lessons.swift */; };
+		BAC0700E2B68521800BD4D8B /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0700D2B68521800BD4D8B /* Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BA3B2D0E2AF4398E00382078 /* Polodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Polodo.entitlements; sourceTree = "<group>"; };
 		BA3B2D0F2AF4398E00382078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC0700B2B68500700BD4D8B /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
+		BAC0700D2B68521800BD4D8B /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				BA3B2D0F2AF4398E00382078 /* Info.plist */,
 				BA3B2D062AF4398C00382078 /* Polodo.xcdatamodeld */,
 				BAC0700B2B68500700BD4D8B /* Lessons.swift */,
+				BAC0700D2B68521800BD4D8B /* Quiz.swift */,
 			);
 			path = Polodo;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				BA3B2D082AF4398C00382078 /* Polodo.xcdatamodeld in Sources */,
 				BAC0700C2B68500700BD4D8B /* Lessons.swift in Sources */,
+				BAC0700E2B68521800BD4D8B /* Quiz.swift in Sources */,
 				BA3B2D022AF4398B00382078 /* ViewController.swift in Sources */,
 				BA3B2CFE2AF4398B00382078 /* AppDelegate.swift in Sources */,
 				BA3B2D002AF4398B00382078 /* SceneDelegate.swift in Sources */,

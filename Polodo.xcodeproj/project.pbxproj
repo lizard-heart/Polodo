@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29982C282B715F3300F65FB6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 29982C272B715F3300F65FB6 /* FirebaseAnalytics */; };
+		29982C2A2B715F3300F65FB6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 29982C292B715F3300F65FB6 /* FirebaseAnalyticsOnDeviceConversion */; };
+		29982C2C2B715F3300F65FB6 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29982C2B2B715F3300F65FB6 /* FirebaseAnalyticsSwift */; };
+		29982C2E2B715F3300F65FB6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 29982C2D2B715F3300F65FB6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		29982C302B715F3300F65FB6 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 29982C2F2B715F3300F65FB6 /* FirebaseAppCheck */; };
 		BA3B2CFE2AF4398B00382078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3B2CFD2AF4398B00382078 /* AppDelegate.swift */; };
 		BA3B2D002AF4398B00382078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3B2CFF2AF4398B00382078 /* SceneDelegate.swift */; };
 		BA3B2D022AF4398B00382078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3B2D012AF4398B00382078 /* ViewController.swift */; };
@@ -38,6 +43,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29982C2C2B715F3300F65FB6 /* FirebaseAnalyticsSwift in Frameworks */,
+				29982C282B715F3300F65FB6 /* FirebaseAnalytics in Frameworks */,
+				29982C2A2B715F3300F65FB6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				29982C302B715F3300F65FB6 /* FirebaseAppCheck in Frameworks */,
+				29982C2E2B715F3300F65FB6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +104,13 @@
 			dependencies = (
 			);
 			name = Polodo;
+			packageProductDependencies = (
+				29982C272B715F3300F65FB6 /* FirebaseAnalytics */,
+				29982C292B715F3300F65FB6 /* FirebaseAnalyticsOnDeviceConversion */,
+				29982C2B2B715F3300F65FB6 /* FirebaseAnalyticsSwift */,
+				29982C2D2B715F3300F65FB6 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				29982C2F2B715F3300F65FB6 /* FirebaseAppCheck */,
+			);
 			productName = Polodo;
 			productReference = BA3B2CFA2AF4398B00382078 /* Polodo.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +139,9 @@
 				Base,
 			);
 			mainGroup = BA3B2CF12AF4398B00382078;
+			packageReferences = (
+				29982C262B715F3300F65FB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BA3B2CFB2AF4398B00382078 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -379,6 +399,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29982C262B715F3300F65FB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29982C272B715F3300F65FB6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29982C262B715F3300F65FB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		29982C292B715F3300F65FB6 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29982C262B715F3300F65FB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		29982C2B2B715F3300F65FB6 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29982C262B715F3300F65FB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		29982C2D2B715F3300F65FB6 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29982C262B715F3300F65FB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		29982C2F2B715F3300F65FB6 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29982C262B715F3300F65FB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BA3B2D062AF4398C00382078 /* Polodo.xcdatamodeld */ = {

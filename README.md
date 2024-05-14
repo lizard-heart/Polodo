@@ -1,2 +1,2 @@
 # Polodo
-solvese climate change
+solves climate change
